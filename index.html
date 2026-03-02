@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&display=swap" rel="stylesheet">
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple FAQ | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
+      * {
+        margin: 5px;
+        padding: 5px;
+        box-sizing: border-box;
+        background-color: #D2D5DA;
+      }
+
+      body {
+        height: 100vh;
+        gap: 32px;
+        margin: 72px;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      .background {
+        display: grid;
+        place-items: right;
+        width: 1280px;
+        padding: 20px;
+        border: 2px solid #333;
+        margin: 20px;
+        margin-top: 20px;
+        border-radius: 2px;
+        box-sizing: border-box;
+        background-color: #F8FAFC;
+      }
+
+      .satu, .dua {
+        font-family: 'inter' , sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        word-spacing: 20;
+        background-color: #F8FAFC;
+        margin-left: 100px;
+        padding-left: 100px;
+      }
+
+      .utama {
+        background-color: #FFFFFF;
+        font-family: 'inter' , sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        word-spacing: 20;
+      }
+
+      hr {
+        background-color: black;
+        border: none;
+        height: 0.1px;
+
+      }
+
+      .utama h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 36px;
+        background-color: #FFFFFF;
+      }
+
+      .utama p {
+        text-align: center;
+        background-color: #FFFFFF;
+      }
+
+      .satu p, .dua p, .satu ol, .dua ul, .satu li, .dua li, .dua b{
+        background-color: #F8FAFC;
+      }
+      .satu h2, .dua h2 {
+        font-weight: 600;
+        font-size: 24;
+        background-color: #F8FAFC;
+      }
+
+      .satu a, .dua a {
+        text-decoration: none;
+        background-color: #F8FAFC;
+      }
+
+      @media screen and (max-width: 1024px) {
+        /* Styles for screens smaller than 768px */
+        .background {
+          width: 100%;
+          padding: 0 15px;
+        }
+      }
+
+      @media screen and (max-width: 640px) {
+        /* Styles for screens smaller than 640px */
+        .background {
+          width: 100%;
+          padding: 0 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="background">
+      <div class="utama">
+        <h1>Frequently Asked Questions</h1>
+    
+        <p>Browse through the most frequently asked questions</p>
+      </div>
+      <br>
+    
+      <div class="satu">
+        <h2>How can I track my order?</h2>
+      
+        <p>You can track your order using the following steps : </p>
+      
+        <ol>
+          <li>Go to the Order <a href="#">Tracking page</a>.</li>
+        
+          <li>Enter your order number and email address.</li>
+        
+          <li>Click on the Track Order button to view the current status of your shipment.</li>
+        </ol>
+      
+        <p>If you encounter any issues, please visit our <a href="#">Help Center</a>.</p>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div class="dua">
+        <h2>What is your return policy?</h2>
+      
+        <p>We offer a 30-day return policy on most items. Here are some key points :</p>
+      
+        <ul>
+          <li><b>Items must be in original condition :</b>Unworn, unused, and unwashed.</li>
+          <li><b>Include original packaging and tags :</b>All items should be returned with their original packaging and tags.</li>
+          <li><b>Proof of purchase :</b>A receipt or proof of purchase is required.</li>
+        </ul>
+      
+        <p>For more detailed information, read our full <a href="#">Return Policy</a>.</p>
+      </div>
+    </div>
+
+    <div class="author-info">
+      Coded by <a href="#">Luqyana</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
+
+
